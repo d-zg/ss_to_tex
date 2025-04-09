@@ -1,0 +1,17 @@
+[package]
+name = "latex_ocr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mac-notification-sys = "0.6.4"
+tinyfiledialogs = "3.9.1"
+shellexpand = "3.1"
+base64 = "0.21"
+reqwest = { version = "0.11", features = ["json"] }
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }
+clipboard = "0.5.0"
+config = "0.13"
+home = "0.5" 
